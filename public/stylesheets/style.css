@@ -25,3 +25,17 @@ p {
 #links {
     list-style-type: none;
 }
+
+.seccion {
+    border: 0.8pt solid #c1bdbd;
+    background-color: #f4f8fd;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+#seccionidiomas table {
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #0a52b6;
+}
