@@ -13,9 +13,10 @@
             <ul id="links">
                 <li><a href="#secciondatos">Datos Personales</a></li>
                 <li><a href="#seccionredes">Redes Sociales</a></li>
-                <li><a href="#seccionidiomas">Idiomas</a></li>
                 <li><a href="#seccionhabilidades">Habilidades Profesionales</a></li>
+                <li><a href="#seccionidiomas">Idiomas</a></li>
                 <li><a href="#secciontransversales">Contenidos Transversales</a></li>
+                <li><a href="#secciongaleria">Galería</a></li>
                 <li><a href="#seccioncontactenos">Contáctenos</a></li>
             </ul>
         </nav>
@@ -36,6 +37,16 @@
                     Github
                 </a>
             </span>
+        </section>
+        <section id="seccionhabilidades" class="seccion">
+            <h2>Habilidades Profesionales</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Django</li>
+                <li>Express</li>
+            </ul>
         </section>
         <section id="seccionidiomas" class="seccion">
             <h2>Idiomas</h2>
@@ -64,16 +75,6 @@
                 </tr>
             </table>
         </section>
-        <section id="seccionhabilidades" class="seccion">
-            <h2>Habilidades Profesionales</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>Django</li>
-                <li>Express</li>
-            </ul>
-        </section>
         <section id="secciontransversales" class="seccion">
             <h2>Contenidos Transversales</h2>
             <ol>
@@ -83,11 +84,65 @@
                 <li>Scrum</li>
             </ol>
         </section>
+        <section id="secciongaleria" class="seccion">
+            <h2>Galería</h2>
+            <img src="public/images/reading.jpg" width="30%" alt="Reading" />
+            <img src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg" width="30%" alt="Foto de colaboraci&#243;n" />
+        </section>
         <section id="seccioncontactenos" class="seccion">
-            <h2>Contáctame</h2>
-            <h3>Sus datos</h3>
-            <h3>Ubicación</h3>
-            <div>
+            <h2 id="uno">Contáctame</h2>
+            <h3 id="dos">Sus datos</h3>
+            <h3 id="tres">Ubicación</h3>
+            <div id="cuatro">
+                <form>
+                    <div>
+                        <label>Nombres:</label>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>Apellidos:</label>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>Seleccione su rango de edad:</label>
+                        <div>
+                            <input type="radio" />
+                            <label>menor a 25 a&#241;os</label>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <label>entre 26 y 30 a&#241;os</label>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <label>mayor a 31 a&#241;os</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Seleccione el tipo de servicio a consultar:</label>
+                        <div>
+                            <input type="checkbox" />
+                            <label>Frontend Dev</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <label>Backend Dev</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <label>Desarrollo de software</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <label>CI/CD</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="cinco">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d22557.74753714854!2d-79.97786248792335!3d-1.874147761861821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2sec!4v1729819101166!5m2!1ses!2sec" 
                     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
